@@ -1,0 +1,22 @@
+.botao {
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.botao-perigo { 
+    background: firebrick; 
+
+    &:hover { background-color: darken( firebrick, 20%); }
+}
+
+.botao-padrao { 
+    background: darkcyan; 
+
+    &:hover { background-color: darken( darkcyan, 20% ); }
+}
